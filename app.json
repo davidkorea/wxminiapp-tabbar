@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/send/send",
+    "pages/my/my"
+  ],
+
+  "window":{
+    "navigationBarBackgroundColor": "#3481EB",
+    "navigationBarTitleText": "Deliverary"
+  },
+
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "Query",
+      "iconPath": "images/search.png",
+      "selectedIconPath": "images/slct-search.png"
+    },
+    {
+      "pagePath": "pages/send/send",
+      "text": "Send",
+      "iconPath": "images/send.png",
+      "selectedIconPath": "images/slct-send.png"
+    },
+    {
+      "pagePath": "pages/my/my",
+      "text": "My",
+      "iconPath": "images/home.png",
+      "selectedIconPath": "images/slct-home.png"
+    }  
+    ],
+    "color": "#AAAAAA",
+    "selectedColor": "#3481EB",
+    "backgroundColor": "#FFFFFF"
+  }
+
+}
